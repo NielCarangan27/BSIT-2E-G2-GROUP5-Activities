@@ -8,6 +8,28 @@
     position: fixed;
 }
 
+/* KIMMI'S PART */
+.banner {
+    background-color: #00acc1;
+    color: white;            
+    padding: 80px 20px;     
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;        
+    font-weight: bold;
+    margin-bottom: 15px;    
+}
+
+.banner p {
+    font-size: 1.1rem;    
+    max-width: 800px;
+    margin: 0 auto;            
+    line-height: 1.6;
+}
+
+/* PRINCE'S PART */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -62,4 +84,28 @@ body {
   color: #666;
   font-size: 14px;
   line-height: 1.5;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.content {
+    padding-bottom: 60px; 
+}
+
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 15px 0; 
+    box-sizing: border-box;
 }
