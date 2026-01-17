@@ -8,6 +8,28 @@
     position: fixed;
 }
 
+/* KIMMI'S PART */
+.banner {
+    background-color: #00acc1;
+    color: white;            
+    padding: 80px 20px;     
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;        
+    font-weight: bold;
+    margin-bottom: 15px;    
+}
+
+.banner p {
+    font-size: 1.1rem;    
+    max-width: 800px;
+    margin: 0 auto;            
+    line-height: 1.6;
+}
+
+/* PRINCE'S PART */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
