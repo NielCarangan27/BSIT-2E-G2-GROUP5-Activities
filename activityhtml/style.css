@@ -1,9 +1,4 @@
-.top1-rectangle {
-    width: 100%;
-    height: 100px;
-    background-color: cadetblue;
-    margin: 0;
-    padding: 0;
-    float: left;
-    position: fixed;
+.banner{ 
+background-color: #396ca7;
+color:blue;
 }
