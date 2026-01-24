@@ -1,5 +1,9 @@
 Niel Joseph Carangan
+<<<<<<< HEAD
 Prince John Paul
+=======
+Angela Kim Toriaga
+>>>>>>> babc02c21aff58198dd4fdec06dc952c0a1bf13e
 
 Aldrin Aguilar
 David Francis Tolentino

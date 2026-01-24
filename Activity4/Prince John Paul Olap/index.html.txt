@@ -1,0 +1,25 @@
+<DOCTYPE! html>
+<html>
+
+    <body>
+        <h1>Personal Data Sheet</h1>
+        <h2>Personal Information</h2>
+       Full Name <input name="Full Name" type="text" placeholder="Full Name"> <br/>
+       Gender<br/>
+     <input name="Gender" type="radio" value="Male"/>Male  <input name="Gender" type="radio" value="Female" /> Female
+    <br/>
+       Date of Birth <input type="datetime-local" placeholder="Date of Birth" name="Date of birth"><br/>
+
+       Civil Status <br/>
+
+      <input name="Single" type="radio" value="Single"/> Single <input name="Married" type="radio" value="Married"/> Married <input name="Widowed" type="radio" value="Widowed"/>
+       Widowed 
+    <br/>
+
+    <h2>Contact Information</h2>
+    Email Address <input type="email" name="Email Address" placeholder="Email Address"/> Mobile Number <input type="tel" name="Mobile Number" placeholder="Mobile Number"><br/>
+    Complete Address <input type="text" name="Complete Address">
+
+
+    </body>
+</html>

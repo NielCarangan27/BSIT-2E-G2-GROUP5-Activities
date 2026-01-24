@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+            <style>
+                body {
+                    background-color: #ededed
+                }
+            </style>
+    </head>
+    <body>
+        <header>
+        <div class="card" style="width: auto; margin: 50px; background-color: rgb(25, 87, 255);">
+        <div class="card-body">
+        <h1 class="card-title" style="color: white; margin: 20px; margin-top: 10px;">Personal Data Sheet</h1>
+        </div>
+        </header>
+
+        <p>
+            <div class="card" style="margin-left: 60px;">
+            <div class="card-body">
+            <h3 class="card-title" style="color: #0877ff;">Personal Information</h3>
+        </div>
+        </p>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <label for="date" style="margin-left: 435px;">Date of Birth:</label>
+            <hr class="invisline">
+            <input type="text" id="name" name="name">
+            <input type="date" name="date">
+            <hr class="invisline">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+            <option value="">Select Gender</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="rns">Rather not say</option>
+            </select>
+            <label for="civstatus"style="margin-left: 345px">Civil Status:</label>
+            <select id="civstatus" name="civstatus">
+            <option value="">Select Status</option>
+            <option value="sing">Single</option>
+            <option value="marr">Married</option>
+            <option value="widw">WIdow</option>
+            </select>
+        
+        <p>
+            <div class="card">
+            <div class="card-body">
+            <h3 class="card-title" style="color: #0877ff;">Contact Information</h3>
+        </div>
+        </p>
+            <label for="email">Email:</label>
+            <label for="number"style="margin-left: 465px">Mobile Number:</label>
+    
+            <br>
+            <input type="email" id="email" name="email">
+            <input type="text" id="number" name="number">
+            <br>
+            <label for="address">Complete Address:</label>
+            <br>
+            <input type="text" id="address" name="address">
+            <br>
+            <input type="submit" value="Submit"style="margin-top: 50px;">
+
+        </form>
+        </div>
+    </body>
+</html>
