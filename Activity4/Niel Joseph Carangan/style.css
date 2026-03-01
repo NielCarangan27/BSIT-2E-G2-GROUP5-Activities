@@ -1,0 +1,20 @@
+hr.invisline {
+    visibility: hidden;
+}
+
+#name {
+    width: 500px;
+    height: 30px;
+}
+#email {
+    width: 500px;
+    height: 30px;
+}
+#number {
+    width: 500px;
+    height: 30px;
+}
+#address {
+    width: 500px;
+    height: 30px;
+}
